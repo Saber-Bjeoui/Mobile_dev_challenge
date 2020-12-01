@@ -1401,7 +1401,6 @@ id TOP_END
 id TOP_START
 id TitleTextView
 id WelcomeTextView
-id Welcome_message
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
 id accessibility_custom_action_1
@@ -1485,11 +1484,11 @@ id clip_horizontal
 id clip_vertical
 id collapseActionView
 id confirm_button
+id constraintLayout
 id container
 id content
 id contentPanel
 id coordinator
-id current_date_text
 id custom
 id customPanel
 id cut
@@ -1506,7 +1505,7 @@ id dimensions
 id direct
 id disableHome
 id dropdown_menu
-id editTextTextPersonName3
+id editText_username
 id edit_query
 id end
 id enterAlways
@@ -1667,6 +1666,8 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView_current_date
+id textView_welcome_user
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter

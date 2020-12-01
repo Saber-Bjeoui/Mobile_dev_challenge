@@ -1,4 +1,3 @@
 package saber.bjeoui.mobile_dev_challenge
 
-class User {
-}
+class User(val name: String)

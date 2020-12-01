@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MobileDevChallenge">
-        <activity android:name=".HomeScreen"></activity>
-        <activity android:name=".MainActivity"
+
+        <activity
+            android:name=".MainActivity"
             android:theme="@style/Theme.MainScreen"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -19,6 +20,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".HomeScreen"></activity>
     </application>
 
 </manifest>
