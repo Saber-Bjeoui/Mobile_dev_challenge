@@ -1,0 +1,56 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="saber.bjeoui.mobile_dev_challenge"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/AndroidManifest.xml:5:5-22:19
+12        android:name="androidx.multidex.MultiDexApplication"
+13        android:allowBackup="true"
+13-->/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/AndroidManifest.xml:6:9-35
+14        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+14-->[androidx.core:core:1.2.0] /home/bjsaber/.gradle/caches/transforms-2/files-2.1/1083c8a42298a6daccfa6c8b2a17429a/core-1.2.0/AndroidManifest.xml:24:18-86
+15        android:debuggable="true"
+16        android:icon="@mipmap/ic_launcher"
+16-->/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/AndroidManifest.xml:7:9-43
+17        android:label="@string/app_name"
+17-->/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/AndroidManifest.xml:8:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/AndroidManifest.xml:9:9-54
+19        android:supportsRtl="true"
+19-->/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/AndroidManifest.xml:10:9-35
+20        android:testOnly="true"
+21        android:theme="@style/Theme.MobileDevChallenge" >
+21-->/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/AndroidManifest.xml:11:9-56
+22        <activity android:name="saber.bjeoui.mobile_dev_challenge.HomeScreen" />
+22-->/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/AndroidManifest.xml:12:9-57
+22-->/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/AndroidManifest.xml:12:19-45
+23        <activity
+23-->/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/AndroidManifest.xml:13:9-21:20
+24            android:name="saber.bjeoui.mobile_dev_challenge.MainActivity"
+24-->/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/AndroidManifest.xml:13:19-47
+25            android:screenOrientation="portrait"
+25-->/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/AndroidManifest.xml:15:13-49
+26            android:theme="@style/Theme.MainScreen" >
+26-->/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/AndroidManifest.xml:14:13-52
+27            <intent-filter>
+27-->/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/AndroidManifest.xml:16:13-20:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/AndroidManifest.xml:17:17-69
+28-->/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/AndroidManifest.xml:17:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/AndroidManifest.xml:19:17-77
+30-->/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/AndroidManifest.xml:19:27-74
+31            </intent-filter>
+32        </activity>
+33    </application>
+34
+35</manifest>

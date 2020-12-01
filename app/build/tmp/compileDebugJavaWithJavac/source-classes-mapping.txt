@@ -1,0 +1,2 @@
+saber/bjeoui/mobile_dev_challenge/BuildConfig.java
+ saber.bjeoui.mobile_dev_challenge.BuildConfig
