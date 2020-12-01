@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Mobile-Dev-Challenge</string>
-    <string name="welcome_home">Welcome home</string>
-    <string name="smarty">Smarty</string>
-    <string name="continue_btn">Continue</string>
+    <string name="MainScreenSmallWelcomeText">Welcome home</string>
+    <string name="MainScreenTitleText">Smarty</string>
+    <string name="MainScreenBtnText">Continue</string>
+    <string name="MainScreenInputHintText">Your name</string>
+    <string name="MainScreenImageDesc">Main screen image</string>
 </resources>

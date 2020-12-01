@@ -10,7 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MobileDevChallenge">
         <activity android:name=".HomeScreen"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:theme="@style/Theme.MainScreen"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
