@@ -31,7 +31,7 @@ class HomeScreen : AppCompatActivity() {
         val mediaRoom = Room("Media Room", listOf(smartSpeaker, smartTv, connectedBulb, airCond))
         val bedRoom = Room("BedRoom", listOf(smartSpeaker, smartTv, thermostatController, ipCamera))
 
-        val rooms = listOf<Room>(livingRoom, bathroom, mediaRoom, bedRoom)
+        val roomsList = listOf(livingRoom, bathroom, mediaRoom, bedRoom)
 
         val currentDateText: TextView = findViewById(R.id.textView_current_date)
 

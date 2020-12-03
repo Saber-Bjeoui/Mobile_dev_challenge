@@ -34,12 +34,15 @@
         tools:layout_conversion_absoluteWidth="131dp" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_list_of_rooms"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_marginTop="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_welcome_user" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_welcome_user"
+        tools:listitem="@layout/card_view_room_item" />
 
     <!--<androidx.cardview.widget.CardView
         android:id="@+id/card_view_1"
