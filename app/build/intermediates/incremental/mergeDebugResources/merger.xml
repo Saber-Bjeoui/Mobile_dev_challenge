@@ -248,6 +248,105 @@
         <attr name="android:drawable"/>
     </declare-styleable></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.viewpager2:viewpager2:1.0.0$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/bjsaber/.gradle/caches/transforms-2/files-2.1/35bd9004d406cb85bce05c482fe62d30/jetified-viewpager2-1.0.0/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.viewpager2:viewpager2:1.0.0" from-dependency="true" generated-set="androidx.viewpager2:viewpager2:1.0.0$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/bjsaber/.gradle/caches/transforms-2/files-2.1/35bd9004d406cb85bce05c482fe62d30/jetified-viewpager2-1.0.0/res"><file path="/home/bjsaber/.gradle/caches/transforms-2/files-2.1/35bd9004d406cb85bce05c482fe62d30/jetified-viewpager2-1.0.0/res/values/values.xml" qualifiers=""><declare-styleable name="ViewPager2">
         <attr name="android:orientation"/>
+    </declare-styleable></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="com.google.android:flexbox:2.0.1$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/bjsaber/.gradle/caches/transforms-2/files-2.1/2b995ce04cf6165cfe1529b619b0cf43/jetified-flexbox-2.0.1/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="com.google.android:flexbox:2.0.1" from-dependency="true" generated-set="com.google.android:flexbox:2.0.1$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/bjsaber/.gradle/caches/transforms-2/files-2.1/2b995ce04cf6165cfe1529b619b0cf43/jetified-flexbox-2.0.1/res"><file path="/home/bjsaber/.gradle/caches/transforms-2/files-2.1/2b995ce04cf6165cfe1529b619b0cf43/jetified-flexbox-2.0.1/res/values/values.xml" qualifiers=""><declare-styleable name="FlexboxLayout">
+        <attr name="flexDirection">
+            <enum name="row" value="0"/>
+            <enum name="row_reverse" value="1"/>
+            <enum name="column" value="2"/>
+            <enum name="column_reverse" value="3"/>
+        </attr>
+
+        <attr name="flexWrap">
+            <enum name="nowrap" value="0"/>
+            <enum name="wrap" value="1"/>
+            <enum name="wrap_reverse" value="2"/>
+        </attr>
+
+        
+
+        <attr name="justifyContent">
+            <enum name="flex_start" value="0"/>
+            <enum name="flex_end" value="1"/>
+            <enum name="center" value="2"/>
+            <enum name="space_between" value="3"/>
+            <enum name="space_around" value="4"/>
+            <enum name="space_evenly" value="5"/>
+        </attr>
+
+        <attr name="alignItems">
+            <enum name="flex_start" value="0"/>
+            <enum name="flex_end" value="1"/>
+            <enum name="center" value="2"/>
+            <enum name="baseline" value="3"/>
+            <enum name="stretch" value="4"/>
+        </attr>
+
+        <attr name="alignContent">
+            <enum name="flex_start" value="0"/>
+            <enum name="flex_end" value="1"/>
+            <enum name="center" value="2"/>
+            <enum name="space_between" value="3"/>
+            <enum name="space_around" value="4"/>
+            <enum name="stretch" value="5"/>
+        </attr>
+
+        <attr format="reference" name="dividerDrawable"/>
+        <attr format="reference" name="dividerDrawableHorizontal"/>
+        <attr format="reference" name="dividerDrawableVertical"/>
+
+        <attr name="showDivider">
+            <flag name="none" value="0"/>
+            <flag name="beginning" value="1"/>
+            <flag name="middle" value="2"/>
+            <flag name="end" value="4"/>
+        </attr>
+        <attr name="showDividerHorizontal">
+            <flag name="none" value="0"/>
+            <flag name="beginning" value="1"/>
+            <flag name="middle" value="2"/>
+            <flag name="end" value="4"/>
+        </attr>
+        <attr name="showDividerVertical">
+            <flag name="none" value="0"/>
+            <flag name="beginning" value="1"/>
+            <flag name="middle" value="2"/>
+            <flag name="end" value="4"/>
+        </attr>
+
+        
+        <attr format="integer" name="maxLine"/>
+
+    </declare-styleable><declare-styleable name="FlexboxLayout_Layout">
+        <attr format="integer" name="layout_order"/>
+
+        
+        <attr format="float" name="layout_flexGrow"/>
+
+        
+        <attr format="float" name="layout_flexShrink"/>
+
+        
+        <attr format="fraction" name="layout_flexBasisPercent"/>
+
+        
+
+        <attr name="layout_alignSelf">
+            <enum name="auto" value="-1"/>
+            
+            <enum name="flex_start" value="0"/>
+            <enum name="flex_end" value="1"/>
+            <enum name="center" value="2"/>
+            <enum name="baseline" value="3"/>
+            <enum name="stretch" value="4"/>
+        </attr>
+
+        <attr format="dimension" name="layout_minWidth"/>
+        <attr format="dimension" name="layout_minHeight"/>
+        <attr format="dimension" name="layout_maxWidth"/>
+        <attr format="dimension" name="layout_maxHeight"/>
+
+        
+        <attr format="boolean" name="layout_wrapBefore"/>
     </declare-styleable></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.cardview:cardview:1.0.0$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/bjsaber/.gradle/caches/transforms-2/files-2.1/a1fa966d63d0f97d115ab8468d4b37f5/cardview-1.0.0/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.cardview:cardview:1.0.0" from-dependency="true" generated-set="androidx.cardview:cardview:1.0.0$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/bjsaber/.gradle/caches/transforms-2/files-2.1/a1fa966d63d0f97d115ab8468d4b37f5/cardview-1.0.0/res"><file path="/home/bjsaber/.gradle/caches/transforms-2/files-2.1/a1fa966d63d0f97d115ab8468d4b37f5/cardview-1.0.0/res/values-v23/values-v23.xml" qualifiers="v23"><style name="CardView" parent="Base.CardView">
         <item name="cardBackgroundColor">?android:attr/colorBackgroundFloating</item>
     </style></file><file path="/home/bjsaber/.gradle/caches/transforms-2/files-2.1/a1fa966d63d0f97d115ab8468d4b37f5/cardview-1.0.0/res/values/values.xml" qualifiers=""><attr format="reference" name="cardViewStyle"/><color name="cardview_dark_background">#FF424242</color><color name="cardview_light_background">#FFFFFFFF</color><color name="cardview_shadow_end_color">#03000000</color><color name="cardview_shadow_start_color">#37000000</color><declare-styleable name="CardView">
@@ -5492,7 +5591,7 @@
     <item name="android:textAppearance">?attr/textAppearanceHeadline6</item>
     <item name="android:maxLines">1</item>
     <item name="autoSizeMaxTextSize">20sp</item>
-  </style></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res"/><source path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/build/generated/res/rs/debug"/><source path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res"><file name="activity_main" path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res/layout/activity_main.xml" qualifiers="" type="layout"/><file name="activity_home_screen" path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res/layout/activity_home_screen.xml" qualifiers="" type="layout"/><file name="ic_launcher_foreground" path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" qualifiers="v24" type="drawable"/><file name="livingroom" path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res/drawable/livingroom.png" qualifiers="" type="drawable"/><file name="home" path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res/drawable/home.xml" qualifiers="" type="drawable"/><file name="bathroom" path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res/drawable/bathroom.png" qualifiers="" type="drawable"/><file name="ic_launcher_background" path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res/drawable/ic_launcher_background.xml" qualifiers="" type="drawable"/><file name="bedroom" path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res/drawable/bedroom.png" qualifiers="" type="drawable"/><file name="shadow" path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res/drawable/shadow.xml" qualifiers="" type="drawable"/><file name="mediaroom" path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res/drawable/mediaroom.png" qualifiers="" type="drawable"/><file name="ic_launcher" path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res/mipmap-mdpi/ic_launcher.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher" path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher" path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" qualifiers="xxhdpi-v4" type="mipmap"/><file path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res/values-night/themes.xml" qualifiers="night-v8"><style name="Theme.MobileDevChallenge" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+  </style></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res"/><source path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/build/generated/res/rs/debug"/><source path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res"><file name="card_view_room_item" path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res/layout/card_view_room_item.xml" qualifiers="" type="layout"/><file name="activity_main" path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res/layout/activity_main.xml" qualifiers="" type="layout"/><file name="activity_home_screen" path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res/layout/activity_home_screen.xml" qualifiers="" type="layout"/><file name="ic_launcher_foreground" path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" qualifiers="v24" type="drawable"/><file name="livingroom" path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res/drawable/livingroom.png" qualifiers="" type="drawable"/><file name="home" path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res/drawable/home.xml" qualifiers="" type="drawable"/><file name="bathroom" path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res/drawable/bathroom.png" qualifiers="" type="drawable"/><file name="ic_launcher_background" path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res/drawable/ic_launcher_background.xml" qualifiers="" type="drawable"/><file name="bedroom" path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res/drawable/bedroom.png" qualifiers="" type="drawable"/><file name="shadow" path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res/drawable/shadow.xml" qualifiers="" type="drawable"/><file name="mediaroom" path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res/drawable/mediaroom.png" qualifiers="" type="drawable"/><file name="ic_launcher" path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res/mipmap-mdpi/ic_launcher.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher" path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher" path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" qualifiers="xxhdpi-v4" type="mipmap"/><file path="/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/res/values-night/themes.xml" qualifiers="night-v8"><style name="Theme.MobileDevChallenge" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_200</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -6746,6 +6845,74 @@
   </declare-styleable><declare-styleable name="ConstraintLayout_Layout"><attr name="android:orientation"/><attr name="android:minWidth"/><attr name="android:minHeight"/><attr name="android:maxWidth"/><attr name="android:maxHeight"/><attr name="layout_optimizationLevel"/><attr name="constraintSet"/><attr name="barrierDirection"/><attr name="barrierAllowsGoneWidgets"/><attr name="constraint_referenced_ids"/><attr name="chainUseRtl"/><attr name="layout_constraintCircle"/><attr name="layout_constraintCircleRadius"/><attr name="layout_constraintCircleAngle"/><attr name="layout_constraintGuide_begin"/><attr name="layout_constraintGuide_end"/><attr name="layout_constraintGuide_percent"/><attr name="layout_constraintLeft_toLeftOf"/><attr name="layout_constraintLeft_toRightOf"/><attr name="layout_constraintRight_toLeftOf"/><attr name="layout_constraintRight_toRightOf"/><attr name="layout_constraintTop_toTopOf"/><attr name="layout_constraintTop_toBottomOf"/><attr name="layout_constraintBottom_toTopOf"/><attr name="layout_constraintBottom_toBottomOf"/><attr name="layout_constraintBaseline_toBaselineOf"/><attr name="layout_constraintStart_toEndOf"/><attr name="layout_constraintStart_toStartOf"/><attr name="layout_constraintEnd_toStartOf"/><attr name="layout_constraintEnd_toEndOf"/><attr name="layout_goneMarginLeft"/><attr name="layout_goneMarginTop"/><attr name="layout_goneMarginRight"/><attr name="layout_goneMarginBottom"/><attr name="layout_goneMarginStart"/><attr name="layout_goneMarginEnd"/><attr name="layout_constrainedWidth"/><attr name="layout_constrainedHeight"/><attr name="layout_constraintHorizontal_bias"/><attr name="layout_constraintVertical_bias"/><attr name="layout_constraintWidth_default"/><attr name="layout_constraintHeight_default"/><attr name="layout_constraintWidth_min"/><attr name="layout_constraintWidth_max"/><attr name="layout_constraintWidth_percent"/><attr name="layout_constraintHeight_min"/><attr name="layout_constraintHeight_max"/><attr name="layout_constraintHeight_percent"/><attr name="layout_constraintLeft_creator"/><attr name="layout_constraintTop_creator"/><attr name="layout_constraintRight_creator"/><attr name="layout_constraintBottom_creator"/><attr name="layout_constraintBaseline_creator"/><attr name="layout_constraintDimensionRatio"/><attr name="layout_constraintHorizontal_weight"/><attr name="layout_constraintVertical_weight"/><attr name="layout_constraintHorizontal_chainStyle"/><attr name="layout_constraintVertical_chainStyle"/><attr name="layout_editor_absoluteX"/><attr name="layout_editor_absoluteY"/></declare-styleable><declare-styleable name="PopupWindowBackgroundState">
         
         <attr format="boolean" name="state_above_anchor"/>
+    </declare-styleable><declare-styleable name="FlexboxLayout">
+        <attr name="flexDirection">
+            <enum name="row" value="0"/>
+            <enum name="row_reverse" value="1"/>
+            <enum name="column" value="2"/>
+            <enum name="column_reverse" value="3"/>
+        </attr>
+
+        <attr name="flexWrap">
+            <enum name="nowrap" value="0"/>
+            <enum name="wrap" value="1"/>
+            <enum name="wrap_reverse" value="2"/>
+        </attr>
+
+        
+
+        <attr name="justifyContent">
+            <enum name="flex_start" value="0"/>
+            <enum name="flex_end" value="1"/>
+            <enum name="center" value="2"/>
+            <enum name="space_between" value="3"/>
+            <enum name="space_around" value="4"/>
+            <enum name="space_evenly" value="5"/>
+        </attr>
+
+        <attr name="alignItems">
+            <enum name="flex_start" value="0"/>
+            <enum name="flex_end" value="1"/>
+            <enum name="center" value="2"/>
+            <enum name="baseline" value="3"/>
+            <enum name="stretch" value="4"/>
+        </attr>
+
+        <attr name="alignContent">
+            <enum name="flex_start" value="0"/>
+            <enum name="flex_end" value="1"/>
+            <enum name="center" value="2"/>
+            <enum name="space_between" value="3"/>
+            <enum name="space_around" value="4"/>
+            <enum name="stretch" value="5"/>
+        </attr>
+
+        <attr format="reference" name="dividerDrawable"/>
+        <attr format="reference" name="dividerDrawableHorizontal"/>
+        <attr format="reference" name="dividerDrawableVertical"/>
+
+        <attr name="showDivider">
+            <flag name="none" value="0"/>
+            <flag name="beginning" value="1"/>
+            <flag name="middle" value="2"/>
+            <flag name="end" value="4"/>
+        </attr>
+        <attr name="showDividerHorizontal">
+            <flag name="none" value="0"/>
+            <flag name="beginning" value="1"/>
+            <flag name="middle" value="2"/>
+            <flag name="end" value="4"/>
+        </attr>
+        <attr name="showDividerVertical">
+            <flag name="none" value="0"/>
+            <flag name="beginning" value="1"/>
+            <flag name="middle" value="2"/>
+            <flag name="end" value="4"/>
+        </attr>
+
+        
+        <attr format="integer" name="maxLine"/>
+
     </declare-styleable><declare-styleable name="TabItem">
     
     <attr name="android:text"/>
@@ -7384,7 +7551,38 @@
     <attr format="boolean" name="state_lifted"/>
     
     <attr format="boolean" name="state_liftable"/>
-  </declare-styleable><declare-styleable name="MenuItem">
+  </declare-styleable><declare-styleable name="FlexboxLayout_Layout">
+        <attr format="integer" name="layout_order"/>
+
+        
+        <attr format="float" name="layout_flexGrow"/>
+
+        
+        <attr format="float" name="layout_flexShrink"/>
+
+        
+        <attr format="fraction" name="layout_flexBasisPercent"/>
+
+        
+
+        <attr name="layout_alignSelf">
+            <enum name="auto" value="-1"/>
+            
+            <enum name="flex_start" value="0"/>
+            <enum name="flex_end" value="1"/>
+            <enum name="center" value="2"/>
+            <enum name="baseline" value="3"/>
+            <enum name="stretch" value="4"/>
+        </attr>
+
+        <attr format="dimension" name="layout_minWidth"/>
+        <attr format="dimension" name="layout_minHeight"/>
+        <attr format="dimension" name="layout_maxWidth"/>
+        <attr format="dimension" name="layout_maxHeight"/>
+
+        
+        <attr format="boolean" name="layout_wrapBefore"/>
+    </declare-styleable><declare-styleable name="MenuItem">
 
         
         <attr name="android:id"/>

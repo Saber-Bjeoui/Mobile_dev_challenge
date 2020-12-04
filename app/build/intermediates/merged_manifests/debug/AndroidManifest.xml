@@ -29,7 +29,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="saber.bjeoui.mobile_dev_challenge.HomeScreen" />
+        <activity
+            android:name="saber.bjeoui.mobile_dev_challenge.HomeScreen"
+            android:theme="@style/Theme.MainScreen" />
     </application>
 
 </manifest>

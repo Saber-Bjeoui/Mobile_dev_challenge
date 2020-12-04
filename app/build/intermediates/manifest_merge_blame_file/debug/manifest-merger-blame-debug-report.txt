@@ -11,7 +11,7 @@
 9-->/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/AndroidManifest.xml:5:5-24:19
+11-->/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/AndroidManifest.xml:5:5-26:19
 12        android:name="androidx.multidex.MultiDexApplication"
 13        android:allowBackup="true"
 13-->/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/AndroidManifest.xml:6:9-35
@@ -48,9 +48,12 @@
 29-->/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/AndroidManifest.xml:20:27-74
 30            </intent-filter>
 31        </activity>
-32        <activity android:name="saber.bjeoui.mobile_dev_challenge.HomeScreen" />
-32-->/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/AndroidManifest.xml:23:9-57
-32-->/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/AndroidManifest.xml:23:19-45
-33    </application>
-34
-35</manifest>
+32        <activity
+32-->/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/AndroidManifest.xml:23:9-25:64
+33            android:name="saber.bjeoui.mobile_dev_challenge.HomeScreen"
+33-->/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/AndroidManifest.xml:24:13-39
+34            android:theme="@style/Theme.MainScreen" />
+34-->/home/bjsaber/AndroidStudioProjects/MobileDevChallenge/app/src/main/AndroidManifest.xml:25:13-52
+35    </application>
+36
+37</manifest>

@@ -1,18 +1,21 @@
 package saber.bjeoui.mobile_dev_challenge
 
+import android.graphics.drawable.Drawable
 import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import org.w3c.dom.Text
 import java.text.SimpleDateFormat
 import java.time.LocalDateTime
+import java.util.ArrayList
 
 
 class HomeScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home_screen)
-        println("hello world")
 
         // I think here at this point in a fully functional app we need to go and fetch data from server
         // So I created some dummy data to work with
@@ -26,12 +29,54 @@ class HomeScreen : AppCompatActivity() {
         val smartSpeaker = Device("Smart Speaker")
 
         //rooms
-        val bathroom = Room("bathroom", listOf(connectedBulb, smartSpeaker))
-        val livingRoom = Room("Living Room", listOf(smartSpeaker, smartTv, airCond, thermostatController, connectedBulb, ipCamera))
-        val mediaRoom = Room("Media Room", listOf(smartSpeaker, smartTv, connectedBulb, airCond))
-        val bedRoom = Room("BedRoom", listOf(smartSpeaker, smartTv, thermostatController, ipCamera))
+        val roomsList = listOf(
+            Room("Bathroom", listOf(connectedBulb, smartSpeaker), R.drawable.bathroom),
+            Room(
+                "Living room",
+                listOf(
+                    smartSpeaker,
+                    smartTv,
+                    airCond,
+                    thermostatController,
+                    connectedBulb,
+                    ipCamera
+                ),
+                R.drawable.livingroom
+            ),
+            Room(
+                "Media room",
+                listOf(smartSpeaker, smartTv, connectedBulb, airCond),
+                R.drawable.mediaroom
+            ),
+            Room(
+                "Bedroom",
+                listOf(smartSpeaker, smartTv, thermostatController, ipCamera),
+                R.drawable.bedroom
+            ),
+            Room(
+                "Bedroom",
+                listOf(smartSpeaker, smartTv, thermostatController, ipCamera),
+                R.drawable.bedroom
+            ),
+            Room(
+                "Bedroom",
+                listOf(smartSpeaker, smartTv, thermostatController, ipCamera),
+                R.drawable.bedroom
+            )
 
-        val roomsList = listOf(livingRoom, bathroom, mediaRoom, bedRoom)
+        )
+
+        //Creating list of cardViews representing the list of rooms
+        val cadrViewList = roomsList.map {
+            RoomItemCardView(it.backGroungImage, it.name, it.devices.count())
+        }
+
+
+        val recyclerViewRooms: RecyclerView = findViewById(R.id.recyclerView_list_of_rooms)
+
+        recyclerViewRooms.adapter = RoomItemCardViewAdapter(cadrViewList)
+        recyclerViewRooms.layoutManager = LinearLayoutManager(this)
+
 
         val currentDateText: TextView = findViewById(R.id.textView_current_date)
 
